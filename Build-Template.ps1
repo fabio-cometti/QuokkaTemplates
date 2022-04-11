@@ -1,0 +1,1 @@
+nuget pack .\src\Quokka.Templates.CleanArchitectureSolution.nuspec -OutputDirectory .\packages -NoDefaultExcludes

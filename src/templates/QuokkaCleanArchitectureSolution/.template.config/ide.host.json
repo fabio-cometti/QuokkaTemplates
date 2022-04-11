@@ -1,0 +1,14 @@
+{
+    "$schema":"http://json.schemastore.org/vs-2017.3.host",
+    "name": { "text": "Quokka Clean Architecture Solution" },
+    "description": { "text": "A template for creating a solution following Clean Architecture style" }, 
+    "order": 5,
+    "symbolInfo": [        
+        
+    ],
+    "supportsDocker": true,
+    "includeLaunchSettings": true,
+    "learnMoreLink": "https://github.com/fabio-cometti",
+    "isApi": true,    
+    "icon": "icon.png"
+}

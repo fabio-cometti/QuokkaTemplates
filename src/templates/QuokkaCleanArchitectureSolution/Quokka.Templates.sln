@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E53732A4-B84A-454E-A7DC-367E8032F460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quokka.Templates.Domain", "src\Quokka.Templates.Domain\Quokka.Templates.Domain.csproj", "{D5BD61F6-566F-477D-9620-A0541A3FD78D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15B409AA-C222-4851-8C90-7771EB6C9641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quokka.Templates.ArchitecturalTests", "tests\Quokka.Templates.ArchitecturalTests\Quokka.Templates.ArchitecturalTests.csproj", "{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quokka.Templates.IntegrationTests", "tests\Quokka.Templates.IntegrationTests\Quokka.Templates.IntegrationTests.csproj", "{B41B3C7D-469A-48E8-BE02-581027F899CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quokka.Templates.UnitTests", "tests\Quokka.Templates.UnitTests\Quokka.Templates.UnitTests.csproj", "{322BD9C7-70CC-431F-B288-D5A9067AF2C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5BD61F6-566F-477D-9620-A0541A3FD78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BD61F6-566F-477D-9620-A0541A3FD78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BD61F6-566F-477D-9620-A0541A3FD78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BD61F6-566F-477D-9620-A0541A3FD78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41B3C7D-469A-48E8-BE02-581027F899CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41B3C7D-469A-48E8-BE02-581027F899CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41B3C7D-469A-48E8-BE02-581027F899CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41B3C7D-469A-48E8-BE02-581027F899CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322BD9C7-70CC-431F-B288-D5A9067AF2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322BD9C7-70CC-431F-B288-D5A9067AF2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322BD9C7-70CC-431F-B288-D5A9067AF2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322BD9C7-70CC-431F-B288-D5A9067AF2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5BD61F6-566F-477D-9620-A0541A3FD78D} = {E53732A4-B84A-454E-A7DC-367E8032F460}
+		{7D45EA03-6CEE-4855-A4B6-E3D55BD9CE57} = {15B409AA-C222-4851-8C90-7771EB6C9641}
+		{B41B3C7D-469A-48E8-BE02-581027F899CA} = {15B409AA-C222-4851-8C90-7771EB6C9641}
+		{322BD9C7-70CC-431F-B288-D5A9067AF2C1} = {15B409AA-C222-4851-8C90-7771EB6C9641}
+	EndGlobalSection
+EndGlobal
